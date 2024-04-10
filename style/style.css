@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gray-color {
+  color: rgb(150, 150, 150);
+}
+
+.score {
+  display: flex;
+}
+
+.img {
+  height: 350px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 700px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body header div.container {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+body header div.container form input {
+  flex: 9;
+  background: transparent;
+  outline: none;
+  border: 0;
+  font-size: 1.25rem;
+  padding: 30px;
+}
+body header div.container form button {
+  flex: 1;
+  background: transparent;
+  outline: none;
+  border: 0;
+  width: 60px;
+  height: 60px;
+  transform: scale(1.5);
+}
+body header div.container form button:hover {
+  transform: scale(1.8);
+}
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+}
+body main div.movie-card {
+  flex: 0 1 350px;
+  width: 375px;
+  padding: 20px;
+  transform: all 1s ease;
+}
+body main div.movie-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8));
+}
+body main div.movie-card div.content {
+  margin: 0;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 100px;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+}
+body main div.movie-card div.content .name .score h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+body main div.movie-card div.content .name .score ul {
+  font-size: 1.2rem;
+  position: relative;
+  left: 0.5rem;
+  display: flex;
+  list-style-type: none;
+}
+body main div.movie-card div.content .details {
+  padding: 0.8rem 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main div.movie-card div.content .details .date {
+  flex: 0 1 75px;
+}
+body main div.movie-card div.content .details .running-time {
+  flex: 0 1 75px;
+}
+body main div.movie-card div.content .details .lang {
+  flex: 0 1 75px;
+}
+body main div.movie-card div.content .details .rating {
+  flex: 0 1 60px;
+}
+body main div.movie-card div.content .details .length {
+  text-align: center;
+}
+
+.Shawshank-img {
+  background-image: url("../images/1995.jpg");
+  background-size: cover;
+}
+
+.Godfather-img {
+  background-image: url("../images/godfather.jpg");
+  background-size: cover;
+}
+
+.Dark-Knight-img {
+  background-image: url("../images/the dark knight.jpg");
+  background-size: cover;
+}
+
+.Godfather2-img {
+  background-image: url("../images/godfather2.jpg");
+  background-size: cover;
+}
+
+.Angry-Men-img {
+  background-image: url("../images/angrymen.jpg");
+  background-size: cover;
+}
+
+.Schindler-img {
+  background-image: url("../images/Schindler's List.jpg");
+  background-size: cover;
+}
+
+.LordRing3-img {
+  background-image: url("../images/lord ring 3.jpg");
+  background-size: cover;
+}
+
+.Pulp-Fiction-img {
+  background-image: url("../images/Pulp-Fiction.jpg");
+  background-size: cover;
+}
+
+.LordRing1-img {
+  background-image: url("../images/lord ring 1.jpg");
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
